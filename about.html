@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Knicked Biked - See where bike are stolen from in your area</title>
+
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">  
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
+
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+
+
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+<style>
+#main {
+    margin: 50px 10px;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+    <div class="home-menu pure-menu pure-menu-open pure-menu-horizontal pure-menu-fixed">
+        <a class="pure-menu-heading" href="index.html">Knicked Bikes</a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="pure-menu-selected"><a href="about.html">About</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="content-wrapper">
+
+    <div id='main'>
+        <p>When I'm locking my bike up somewhere I often wonder about whether other bikes have been stolen from that location. I noticed that the police published data on this, so I threw together this little tool to help people out.<p>
+
+        <p>Based on your browser location it queries the police.go.uk API for crimes near you in the last month, filters them for bike thefts and displays them on a map.</p>
+
+        <p>If you have any questions, suggestions or want to say hi, then you can tweet me <a href='https://twitter.com/jjeffries1'>@jjeffries1</a></p>
+    </div>
+    <div class="footer l-box is-center">
+        Made by James Jeffries using open data from police.gov.uk
+    </div>
+
+</div>
+
+</body>
+</html>

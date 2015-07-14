@@ -1,0 +1,64 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="A layout example that shows off a responsive product landing page.">
+
+    <title>Bike Safe - See where bike are stolen from in your area</title>
+
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+
+<!--[if lte IE 8]>
+  
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-old-ie-min.css">
+  
+<![endif]-->
+<!--[if gt IE 8]><!-->
+  
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
+  
+<!--<![endif]-->
+
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    
+<!--[if lt IE 9]>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.js"></script>
+<![endif]-->
+<style>
+	#map-canvas {
+		width: 800px;
+		height: 600px;
+        top: 35px;
+	}
+</style>
+
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+</head>
+<body>
+
+<div class="header">
+    <div class="home-menu pure-menu pure-menu-open pure-menu-horizontal pure-menu-fixed">
+        <a class="pure-menu-heading" href="">Knicked Bikes</a>
+        <ul>
+            <li class="pure-menu-selected"><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="content-wrapper">
+
+	<div id='map-canvas'/>
+
+    <div class="footer l-box is-center">
+        Made by James Jeffries using open data from police.gov.uk
+    </div>
+
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
